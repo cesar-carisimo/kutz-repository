@@ -157,7 +157,9 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm"
+ "logoForm form"
+ "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
@@ -190,8 +192,8 @@ p {
 .nuestroTexto {
   text-align: left;
   padding: 10px;
-  letter-spacing: 2px;
-  font-weight: lighter;
+  letter-spacing: 1px;
+  font-weight: bolder;
   box-sizing: border-box;
   border: solid 4px grey;
   margin: 20px;
@@ -223,7 +225,7 @@ p {
 .main {
   background-color: lightgrey;
   padding: 20px;
-  flex: 1 1 80%; }
+  flex: 1 1 70%; }
 
 .main article {
   font-family: bebas neue;
@@ -234,7 +236,7 @@ p {
 aside {
   background-color: lightgrey;
   padding: 20;
-  flex: 1 1 20%;
+  flex: 1 1 30%;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start; }
@@ -335,3 +337,5 @@ h2 {
 
 h3 {
   font-size: 3em; }
+
+
