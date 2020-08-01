@@ -1,362 +1,346 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; }
-  
-  html {
-    font-size: 62.5%; }
-  
-  body {
-    font-family: 'Roboto Mono', monospace;
-    background-color: lightgrey; }
-  
-  .contenedor {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap; }
-  
-  h1 {
-    letter-spacing: 2rem;
-    font-family: calibri; }
-  
-  h2 {
-    color: black;
-    font-size: 2rem;
-    font-family: bebas neue; }
-  
-  h3 {
-    font-weight: bolder; }
-  
-  h5 {
-    color: black;
-    font-size: 2rem;
-    font-family: bebas neue;
-    font-weight: lighter;
-    background-color: #F2F2F2; }
-  
-  h6 {
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: bebas neue, monospace; }
-  
-  p {
-    color: black;
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-family: arial;
-    line-height: 15px; }
-  
-  .navegacion {
-    width: 100%;
-    margin: 30px;
-    background: rgba(255, 255, 255, 0.8); }
-  
-  .menu {
-    margin: 10px; }
-  
-  .menu li {
-    display: inline-block;
-    position: relative;
-    padding: 5px; }
-  
-  .menu li a {
-    font-size: 15px;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    font-family: calibri;
-    display: block; }
-  
-  .subMenu {
-    display: none;
-    position: absolute; }
-  
-  .subMenu li {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    height: 50%; }
-  
-  .subMenu li a {
-    font-size: 12px;
-    display: block;
-    color: black;
-    font-family: calibri;
-    text-decoration: none; }
-  
-  .menu li:hover .subMenu {
-    display: block; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-  .header ul .menuNav a:hover {
-    background-color: lightgrey;
-  }
+html {
+  font-size: 62.5%; }
 
-  
-  
-  .TituloHome {
-    color: white;
-    background-color: black;
-    font-family: calibri;
-    font-weight: lighter;
-    font-size: 2.5rem;
-    text-align: center;
-    width: 100%; }
-  
-  .menu_nav {
-    color: #000000;
-    align-items: center;
-    font-size: 2rem;
-    font-family: calibri;
-    font-weight: bolder; }
-  
-  .obras1 {
-    margin: 20px 20px;
-    
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #F2F2F2;
    }
 
-   .obras1 a:hover {
-     filter: sepia(100%);
-    
-   }
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap; }
 
-   .gallery {
-     margin: 40px;
-   }
+h1 {
+  letter-spacing: 2rem;
+  font-family: calibri; }
 
-   .volver:hover {
-     background-color: lightgrey;
-   }
-  
-    .footer {
-      width: 100%;
-      
-    }
-  
-  .foot {
-    color: white;
-    background-color: black;
-    font-weight: lighter;
-    font-size: 1,5rem;
-    font-family: calibri; }
-  
-  .footCopyright {
-    color: black;
-    font-weight: lighter;
-    font-size: 20px;
-    font-family: calibri; }
-  
-  .contacto {
-    font-family: calibri;
-    margin: 20px; }
-  
-  .otroContacto {
-    font-family: arial;
-    color: black;
-    margin: 10px; }
-  
-  .field {
-    margin: 10px;
-    font-weight: bolder;
-    font-size: 15px;
-    width: 100%;
-    padding: 10px; }
-  
-  .otrasVias {
-    margin: 25px; }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr 1fr;
-    grid-template-areas: "logoForm tituloForm"
-   "logoForm form"
-   "logoForm viaAlternativa"; }
-  
-  .tituloForm {
-    grid-area: tituloForm;
-    background-color: #979B97; }
-  
-  .tituloFormulario {
-    margin: 20px;
-    padding: 25px;
-    text-align: center;
-    font-size: 35px; }
-  
-  .logoForm {
-    grid-area: logoForm;
-    background-color: black; }
-  
-  .form {
-    grid-area: form;
-    background-color: #EAEBEA;
-    display: flex;
-    flex-wrap: wrap; }
-  
-  .viaAlternativa {
-    grid-area: viaAlternativa;
-    background-color: #646864; }
-  
-  .nosotros {
-    background-color: lightgrey;
-    position: relative; }
-  
-  .nuestroTexto {
-    text-align: left;
-    padding: 10px;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    box-sizing: border-box;
-    border: solid 4px grey;
-    margin: 20px;
-    position: absolute; }
-  
-  .servicios {
-    background-color: lightgrey;
-    font-weight: bolder; 
-    display: flex;
-    justify-content: space-evenly;
-    }
-  
-  .losServicios {
-    background-color: lightgrey;
-    box-sizing: border-box;
-    font-size: 2rem;
-    font-weight: bolder;
-    width: 550px;
-    height: 300px;
-    margin: 10px;
-    padding: 30PX;
-    border: solid 4px grey;
-    display: inline-block; }
-  
-  .nosotrosLogo {
-    margin: 10px;
-    display: inline-block;
-    align-items: center; }
-  
-  .main {
-    background-color: lightgrey;
-    padding: 20px;
-    flex: 1 1 80%; }
-  
-  .main article {
-    font-family: bebas neue;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: solid black 1px; }
-  
-  aside {
-    background-color: lightgrey;
-    padding: 20;
-    flex: 1 1 20%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start; }
-  
-  aside div {
-    background-color: lightgrey;
-    height: 150px;
-    margin: 5px;
-    padding: 5px;
-    color: white;
-    text-align: center; }
-  
-  .map {
-    width: 100%;
-    height: 50%;
-    align-self: center;
-    margin: 20px;
-    padding: 10px; }
-  
-  .obrasGallery:hover {
-    transform: scale(1.1); }
-  
-  .tituloFormulario {
-    animation-duration: 2s;
-    animation-iteration-count: infinite; }
-  
-  .alternative {
-    animation-duration: 3s;
-    animation-iteration-count: infinite; }
-  
-  .logoForm {
-    animation-duration: 3s; }
-  
-  .campos {
-    width: 97%;
-    height: 30px;
-    margin: 10px;
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid; }
-  
-  .field .boton {
-    width: 100%;
-    margin-bottom: 5px;
-    padding: 5px;
-    background-color: lightgrey;
-    line-height: 20px; }
-  
-  .container-fluid {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1px; }
-  
-  .container-fluid2 {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 5px;
-    color: white; }
-  
-  .container-fluid2 li h5 {
-    border: solid 4px grey;
-    padding: 5px; }
-  
-  .container-fluid2 li p {
-    border: solid 4px grey;
-    padding: 10px; }
-  
-  .container-fluid2 li p a {
-    text-decoration-color: blue; }
-  
-  ul {
-    list-style-type: none; }
-  
-  ul li {
-    padding: 0.5rem;
-    display: inline;
-    text-decoration: none;
-    padding: 5px; }
-  
-  ul li a {
-    color: black;
-    padding: 10px;
-    font-size: 15px;
-    font-family: calibri; }
-  
-  .header__ul__menuNav__li__a--otro {
-    color: red; }
-  
-  .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
-  
-  .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
-  
+h2 {
+  color: black;
+  font-size: 2rem;
+  font-family: bebas neue; }
 
-    $color: rojo;
+h3 {
+  font-weight: bolder; }
 
-    p {
-      @if ($color == rojo) {
-        color: red;
-      }    
+h5 {
+  color: black;
+  font-size: 2rem;
+  font-family: bebas neue;
+  font-weight: lighter;
+  background-color: #F2F2F2; }
 
-    @else {
-        color: black
-    }
+h6 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: bebas neue, monospace; }
 
-  }
+p {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: arial;
+  line-height: 15px; }
 
-  @for $i from 2 through 3 {
-    h#{$i} {
-    font-size: $i *1em;
-  }
+.navegacion {
+  width: 100%;
+  margin: 30px;
+  background: rgba(255, 255, 255, 0.8); }
+
+.menu {
+  margin: 10px; }
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  padding: 5px; }
+
+.menu li a {
+  font-size: 15px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: calibri;
+  display: block; }
+
+.subMenu {
+  display: none;
+  position: absolute; }
+
+.subMenu li {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 50%; }
+
+.subMenu li a {
+  font-size: 12px;
+  display: block;
+  color: black;
+  font-family: calibri;
+  text-decoration: none; }
+
+.menu li:hover .subMenu {
+  display: block; }
+
+.header ul .menuNav a:hover {
+  background-color: lightgrey; }
+
+.TituloHome {
+  color: white;
+  background-color: black;
+  font-family: calibri;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%; }
+
+.menu_nav {
+  color: #000000;
+  align-items: center;
+  font-size: 2rem;
+  font-family: calibri;
+  font-weight: bolder; }
+
+.obras1 {
+  margin: 20px 20px; }
+
+.obras1 a:hover {
+  filter: sepia(100%); }
+
+.gallery {
+  margin: 40px; }
+
+.volver:hover {
+  background-color: lightgrey; }
+
+.footer {
+  width: 100%; }
+
+.foot {
+  color: white;
+  background-color: black;
+  font-weight: lighter;
+  font-size: 1,5rem;
+  font-family: calibri; }
+
+.footCopyright {
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: calibri; }
+
+.contacto {
+  font-family: calibri;
+  margin: 20px; }
+
+.otroContacto {
+  font-family: arial;
+  color: black;
+  margin: 10px; }
+
+.field {
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px; }
+
+.otrasVias {
+  margin: 25px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-areas: "logoForm tituloForm"
+ "logoForm form"
+ "logoForm viaAlternativa"; }
+
+.tituloForm {
+  grid-area: tituloForm;
+  background-color: #979B97; }
+
+.tituloFormulario {
+  margin: 20px;
+  padding: 25px;
+  text-align: center;
+  font-size: 35px; }
+
+.logoForm {
+  grid-area: logoForm;
+  background-color: black; }
+
+.form {
+  grid-area: form;
+  background-color: #EAEBEA;
+  display: flex;
+  flex-wrap: wrap; }
+
+.viaAlternativa {
+  grid-area: viaAlternativa;
+  background-color: #646864; }
+
+.nosotros {
+  background-color: lightgrey;
+  position: relative; }
+
+.nuestroTexto {
+  text-align: left;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  border: solid 4px grey;
+  margin: 20px;
+  position: absolute; }
+
+.servicios {
+  background-color: lightgrey;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-evenly; }
+
+.losServicios {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 550px;
+  height: 300px;
+  margin: 10px;
+  padding: 30PX;
+  border: solid 4px grey;
+  display: inline-block; }
+
+.nosotrosLogo {
+  margin: 10px;
+  display: inline-block;
+  align-items: center; }
+
+.main {
+  background-color: lightgrey;
+  padding: 20px;
+  flex: 1 1 70%; }
+
+.main article {
+  font-family: bebas neue;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid black 1px; }
+
+aside {
+  background-color: lightgrey;
+  padding: 20;
+  flex: 1 1 30%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start; }
+
+aside div {
+  background-color: lightgrey;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center; }
+
+.map {
+  width: 100%;
+  height: 50%;
+  align-self: center;
+  margin: 20px;
+  padding: 10px; }
+
+.obrasGallery:hover {
+  transform: scale(1.2); }
+
+.tituloFormulario {
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+.alternative {
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+
+.logoForm {
+  animation-duration: 3s; }
+
+.campos {
+  width: 97%;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid; }
+
+.field .boton {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: lightgrey;
+  line-height: 20px; }
+
+.container-fluid {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1px; }
+
+.container-fluid2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  color: white; }
+
+.container-fluid2 li h5 {
+  border: solid 4px grey;
+  padding: 5px; }
+
+.container-fluid2 li p {
+  border: solid 4px grey;
+  padding: 10px; }
+
+.container-fluid2 li p a {
+  text-decoration-color: blue; }
+
+ul {
+  list-style-type: none; }
+
+ul li {
+  padding: 0.5rem;
+  display: inline;
+  text-decoration: none;
+  padding: 5px; }
+
+ul li a {
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  font-family: calibri; }
+
+.header__ul__menuNav__li__a--otro {
+  color: red; }
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+
+.containerCarousel {
+  justify-content: stretch;
 }
+
+  p {
+  color: black; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 3em; }
+
