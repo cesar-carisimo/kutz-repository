@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: lightgrey; }
+  background-color: #F2F2F2; }
 
 .contenedor {
   width: 100%;
@@ -157,9 +157,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm"
- "logoForm form"
- "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
@@ -193,7 +191,8 @@ p {
   text-align: left;
   padding: 10px;
   letter-spacing: 1px;
-  font-weight: bolder;
+  font-size: 15px;
+  font-weight: lighter;
   box-sizing: border-box;
   border: solid 4px grey;
   margin: 20px;
@@ -257,7 +256,7 @@ aside div {
   padding: 10px; }
 
 .obrasGallery:hover {
-  transform: scale(1.1); }
+  transform: scale(1.2); }
 
 .tituloFormulario {
   animation-duration: 2s;
@@ -329,13 +328,14 @@ ul li a {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
+.containerCarousel {
+  justify-content: stretch; }
+
 p {
-  color: red; }
+  color: black; }
 
 h2 {
   font-size: 2em; }
 
 h3 {
   font-size: 3em; }
-
-
