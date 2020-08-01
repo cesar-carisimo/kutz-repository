@@ -157,7 +157,9 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm"
+ "logoForm form"
+ "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
