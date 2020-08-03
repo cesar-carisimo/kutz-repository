@@ -115,6 +115,13 @@ p {
 .gallery {
   margin: 40px; }
 
+
+.volver {
+  background-color: grey;
+  padding: 20px 40px;
+  font-weight: bolder;
+}  
+
 .volver:hover {
   background-color: lightgrey; }
 
@@ -158,7 +165,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm"
+ "logoForm form"
+ "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
@@ -182,7 +191,8 @@ footer {
 
 .viaAlternativa {
   grid-area: viaAlternativa;
-  background-color: #646864; }
+  background-color: #646864;
+  padding: 20px; }
 
 .nosotros {
   background-color: lightgrey;
@@ -279,14 +289,19 @@ aside div {
   margin: 10px;
   padding: 5px;
   border: none;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  font-family: bebas neue;
+  font-size: 20px;
+  font-weight: bold; }
 
-.field .boton {
+.boton {
   width: 100%;
   margin-bottom: 5px;
   padding: 5px;
   background-color: lightgrey;
-  line-height: 20px; }
+  line-height: 20px;
+  font-family: bebas neue;
+  font-size: 20px; }
 
 .container-fluid {
   background-color: rgba(255, 255, 255, 0.8);
