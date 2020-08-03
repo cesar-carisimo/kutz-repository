@@ -129,12 +129,7 @@ footer {
   width: 100%;
   justify-content: flex-end; }
 
-.foot {
-  color: white;
-  background-color: black;
-  font-weight: lighter;
-  font-size: 1,5rem;
-  font-family: calibri; }
+
 
 .footCopyright {
   color: black;
@@ -157,6 +152,16 @@ footer {
   font-size: 15px;
   width: 100%;
   padding: 10px; }
+
+legend p {
+  font-family: bebas neue;
+  font-size: 20px;
+}  
+
+legend option {
+  font-family: bebas neue;
+  font-size: 20px;
+}
 
 .otrasVias {
   margin: 25px; }
