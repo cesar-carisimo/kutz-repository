@@ -118,8 +118,9 @@ p {
 .volver:hover {
   background-color: lightgrey; }
 
-.footer {
-  width: 100%; }
+footer {
+  width: 100%;
+  justify-content: flex-end; }
 
 .foot {
   color: white;
@@ -157,9 +158,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm"
- "logoForm form"
- "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
@@ -199,6 +198,9 @@ p {
   border: solid 4px grey;
   margin: 20px;
   position: absolute; }
+
+.nuestroTexto h2 {
+  justify-content: center; }
 
 .servicios {
   background-color: lightgrey;
@@ -331,7 +333,8 @@ ul li a {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 .containerCarousel {
-  justify-content: stretch; }
+  justify-content: stretch;
+  background-color: #F2F2F2; }
 
 p {
   color: black; }
