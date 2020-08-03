@@ -119,8 +119,9 @@ p {
 .volver:hover {
   background-color: lightgrey; }
 
-.footer {
-  width: 100%; }
+footer {
+  width: 100%;
+  justify-content: flex-end; }
 
 .foot {
   color: white;
@@ -200,6 +201,10 @@ p {
   border: solid 4px grey;
   margin: 20px;
   position: absolute; }
+
+  .nuestroTexto h2 {
+    justify-content: center;
+  }
 
 .servicios {
   background-color: lightgrey;
@@ -333,6 +338,7 @@ ul li a {
 
 .containerCarousel {
   justify-content: stretch;
+  background-color: #F2F2F2;
 }
 
   p {
