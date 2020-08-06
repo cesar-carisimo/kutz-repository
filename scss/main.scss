@@ -8,8 +8,7 @@ html {
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: #F2F2F2;
-   }
+  background-color: white; }
 
 .contenedor {
   width: 100%;
@@ -202,9 +201,8 @@ footer {
   margin: 20px;
   position: absolute; }
 
-  .nuestroTexto h2 {
-    justify-content: center;
-  }
+.nuestroTexto h2 {
+  justify-content: center; }
 
 .servicios {
   background-color: lightgrey;
@@ -338,10 +336,9 @@ ul li a {
 
 .containerCarousel {
   justify-content: stretch;
-  background-color: #F2F2F2;
-}
+  background-color: #F2F2F2; }
 
-  p {
+p {
   color: black; }
 
 h2 {
@@ -349,4 +346,6 @@ h2 {
 
 h3 {
   font-size: 3em; }
+
+$card-height: 100% 
 
