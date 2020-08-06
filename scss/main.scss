@@ -115,25 +115,16 @@ p {
 .gallery {
   margin: 40px; }
 
+.volver {
+  font-family: arial;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 .volver:hover {
   background-color: lightgrey; }
 
-footer {
-  width: 100%;
-  justify-content: flex-end; }
 
-.foot {
-  color: white;
-  background-color: black;
-  font-weight: lighter;
-  font-size: 1,5rem;
-  font-family: calibri; }
-
-.footCopyright {
-  color: black;
-  font-weight: lighter;
-  font-size: 20px;
-  font-family: calibri; }
 
 .contacto {
   font-family: calibri;
@@ -347,5 +338,38 @@ h2 {
 h3 {
   font-size: 3em; }
 
-$card-height: 100% 
 
+.btn btn-dark {
+  font-family: bebas neue;
+}  
+
+.form-group p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.text-muted {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.form-control {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid;
+
+}
+
+
+
+textarea {
+  border: 1px solid;
+}
+
+.tituloContacto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+
+}
