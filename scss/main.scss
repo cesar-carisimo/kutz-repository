@@ -110,7 +110,14 @@ p {
   margin: 20px 20px; }
 
 .obras1 a:hover {
-  filter: sepia(100%); }
+  filter: sepia(100%);
+  transform: scale(1.2);
+  transition: all .3s;
+ }
+
+ .card {
+   overflow: hidden;
+ }
 
 .gallery {
   margin: 40px; }
@@ -253,7 +260,8 @@ aside div {
   padding: 10px; }
 
 .obrasGallery:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+   }
 
 .tituloFormulario {
   animation-duration: 2s;
