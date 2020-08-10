@@ -107,10 +107,18 @@ p {
   font-weight: bolder; }
 
 .obras1 {
-  margin: 20px 20px; }
+  margin: 20px 20px;
+  overflow: hidden; }
 
 .obras1 a:hover {
-  filter: sepia(100%); }
+  filter: sepia(100%);
+  transform: scale(1.1);
+  transition: 0.3s;
+ }
+
+ .card img {
+   transition: 0.3s;
+ }
 
 .gallery {
   margin: 40px; }
@@ -118,13 +126,10 @@ p {
 .volver {
   font-family: arial;
   font-weight: bolder;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .volver:hover {
   background-color: lightgrey; }
-
-
 
 .contacto {
   font-family: calibri;
@@ -329,6 +334,8 @@ ul li a {
   justify-content: stretch;
   background-color: #F2F2F2; }
 
+ 
+
 p {
   color: black; }
 
@@ -338,38 +345,27 @@ h2 {
 h3 {
   font-size: 3em; }
 
-
 .btn btn-dark {
-  font-family: bebas neue;
-}  
+  font-family: bebas neue; }
 
 .form-group p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .text-muted {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .form-control {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   border: none;
-  border-bottom: 1px solid;
-
-}
-
-
+  border-bottom: 1px solid; }
 
 textarea {
-  border: 1px solid;
-}
+  border: 1px solid; }
 
-.tituloContacto{
+.tituloContacto {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 25px;
-
-}
+  font-size: 25px; }
