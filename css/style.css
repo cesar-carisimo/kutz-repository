@@ -107,18 +107,15 @@ p {
   font-weight: bolder; }
 
 .obras1 {
-  margin: 20px 20px;
-  overflow: hidden; }
+  margin: 20px 20px; }
 
 .obras1 a:hover {
   filter: sepia(100%);
-  transform: scale(1.1);
-  transition: 0.3s;
- }
+  transform: scale(1.2);
+  transition: all .3s; }
 
- .card img {
-   transition: 0.3s;
- }
+.card {
+  overflow: hidden; }
 
 .gallery {
   margin: 40px; }
@@ -154,9 +151,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm"
- "logoForm form"
- "logoForm viaAlternativa"; }
+  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
 
 .tituloForm {
   grid-area: tituloForm;
@@ -333,8 +328,6 @@ ul li a {
 .containerCarousel {
   justify-content: stretch;
   background-color: #F2F2F2; }
-
- 
 
 p {
   color: black; }
