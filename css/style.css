@@ -60,30 +60,6 @@ p {
   position: relative;
   padding: 5px; }
 
-.menu li a {
-  font-size: 15px;
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  font-family: calibri;
-  display: block; }
-
-.subMenu {
-  display: none;
-  position: absolute; }
-
-.subMenu li {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 100%;
-  height: 50%; }
-
-.subMenu li a {
-  font-size: 12px;
-  display: block;
-  color: black;
-  font-family: calibri;
-  text-decoration: none; }
-
 .menu li:hover .subMenu {
   display: block; }
 
@@ -128,158 +104,17 @@ p {
 .volver:hover {
   background-color: lightgrey; }
 
-.contacto {
-  font-family: calibri;
-  margin: 20px; }
-
-.otroContacto {
-  font-family: arial;
-  color: black;
-  margin: 10px; }
-
-.field {
-  margin: 10px;
-  font-weight: bolder;
-  font-size: 15px;
-  width: 100%;
-  padding: 10px; }
-
-.otrasVias {
-  margin: 25px; }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "logoForm tituloForm" "logoForm form" "logoForm viaAlternativa"; }
-
-.tituloForm {
-  grid-area: tituloForm;
-  background-color: #979B97; }
-
-.tituloFormulario {
-  margin: 20px;
-  padding: 25px;
-  text-align: center;
-  font-size: 35px; }
-
-.logoForm {
-  grid-area: logoForm;
-  background-color: black; }
-
-.form {
-  grid-area: form;
-  background-color: #EAEBEA;
-  display: flex;
-  flex-wrap: wrap; }
-
-.viaAlternativa {
-  grid-area: viaAlternativa;
-  background-color: #646864; }
-
 .nosotros {
   background-color: lightgrey;
   position: relative; }
-
-.nuestroTexto {
-  text-align: left;
-  padding: 10px;
-  letter-spacing: 1px;
-  font-size: 15px;
-  font-weight: lighter;
-  box-sizing: border-box;
-  border: solid 4px grey;
-  margin: 20px;
-  position: absolute; }
-
-.nuestroTexto h2 {
-  justify-content: center; }
-
-.servicios {
-  background-color: lightgrey;
-  font-weight: bolder;
-  display: flex;
-  justify-content: space-evenly; }
-
-.losServicios {
-  background-color: lightgrey;
-  box-sizing: border-box;
-  font-size: 2rem;
-  font-weight: bolder;
-  width: 550px;
-  height: 300px;
-  margin: 10px;
-  padding: 30PX;
-  border: solid 4px grey;
-  display: inline-block; }
 
 .nosotrosLogo {
   margin: 10px;
   display: inline-block;
   align-items: center; }
 
-.main {
-  background-color: lightgrey;
-  padding: 20px;
-  flex: 1 1 70%; }
-
-.main article {
-  font-family: bebas neue;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: solid black 1px; }
-
-aside {
-  background-color: lightgrey;
-  padding: 20;
-  flex: 1 1 30%;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start; }
-
-aside div {
-  background-color: lightgrey;
-  height: 150px;
-  margin: 5px;
-  padding: 5px;
-  color: white;
-  text-align: center; }
-
-.map {
-  width: 100%;
-  height: 50%;
-  align-self: center;
-  margin: 20px;
-  padding: 10px; }
-
 .obrasGallery:hover {
   transform: scale(1.2); }
-
-.tituloFormulario {
-  animation-duration: 2s;
-  animation-iteration-count: infinite; }
-
-.alternative {
-  animation-duration: 3s;
-  animation-iteration-count: infinite; }
-
-.logoForm {
-  animation-duration: 3s; }
-
-.campos {
-  width: 97%;
-  height: 30px;
-  margin: 10px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid; }
-
-.field .boton {
-  width: 100%;
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: lightgrey;
-  line-height: 20px; }
 
 .container-fluid {
   background-color: rgba(255, 255, 255, 0.8);
@@ -330,7 +165,15 @@ ul li a {
   background-color: #F2F2F2; }
 
 p {
-  color: black; }
+  color: #151515;
+  line-height: 21px; }
+
+.cardSomos {
+  text-align: justify; }
+
+.somos {
+  font-size: 35px;
+  justify-content: center; }
 
 h2 {
   font-size: 2em; }
@@ -338,8 +181,18 @@ h2 {
 h3 {
   font-size: 3em; }
 
-.btn btn-dark {
-  font-family: bebas neue; }
+.btn-dark {
+  font-family: bebas neue;
+  padding: 20px;
+  font-size: 20px; }
+
+.btn-secondary {
+  font-family: bebas neue;
+  padding: 20px;
+  font-size: 20px; }
+
+.boton {
+  padding: 10px; }
 
 .form-group p {
   font-family: Arial, Helvetica, sans-serif;
